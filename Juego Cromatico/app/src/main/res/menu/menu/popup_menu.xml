@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+    <item
+        android:id="@+id/lvlBajo"
+        android:title="@string/bajo" />
+
+    <item
+        android:id="@+id/lvlMedio"
+        android:title="@string/medio" />
+
+    <item
+        android:id="@+id/lvlAlto"
+        android:title="@string/alto" />
+
+</menu>

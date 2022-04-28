@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://www.w3.org/1999/xhtml"
+    >
+
+    <item
+        android:id="@+id/menuAyuda"
+        android:title="@string/ayuda"
+        />
+
+    <item
+        android:id="@+id/menuSalir"
+        android:title="@string/salir"
+        />
+
+</menu>

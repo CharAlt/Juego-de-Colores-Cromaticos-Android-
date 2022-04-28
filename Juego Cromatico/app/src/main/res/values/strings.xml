@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Chroma Game 3.0</string>
+    <string name="Bienvenidos">Bienvenido al juego &#xA;de colores cromaticos</string>
+    <string name="iniciar">Iniciar Juego</string>
+    <string name="selecccionar">Presione aqui para seleccionar difucultad</string>
+    <string name="comentario">tenga en cuanta que solo &#xA; puede juegar uno a la vez</string>
+    <string name="volver">volver al juego</string>
+    <string name="ayuda">ayuda</string>
+    <string name="reiniciar">Reiniciar el nivel</string>
+    <string name="nuevo">Seleccionar un nuevo nivel</string>
+    <string name="facil">facil</string>
+    <string name="medio">medio</string>
+    <string name="dificil">dificil</string>
+    <string name="lvlbajo">Dificultad baja seleccionada correctamente.</string>
+    <string name="lvlmedio">Dificultad media seleccionada correctamente.</string>
+    <string name="lvlalto">Dificultad alta seleccionada correctamente.</string>
+    <string name="nolvl">No se ha seleccionado correctamente el nivel de dificultad.</string>
+    <string name="compartir">comparir ranking</string>
+    <string name="opcionIrAlMenu">ir al menu principal</string>
+    <string name="intercambios">Intercambios: </string>
+
+    <!-- usados en inciar juegos -->
+    <string name="salir">salir del juego</string>
+    <string name="rank">ir al ranking</string>
+
+    <!-- usados en la clase confirmacion para el dialogo pertinente-->
+    <string name="confirmacion">¿esta seguro que desea salir?</string>
+    <string name="aceptar">si desea salir</string>
+    <string name="cancelar">no, me quedo</string>
+    <string name="quedarse">usted decio quedarse</string>
+
+    <string name="cincoSegs">el juego se iniciara en 5 segundos</string>
+
+
+    <string name="felicidades">felicidades usted a ganado con una puntionacion de: </string>
+    <string name="ingresar">entrar al ranking</string>
+    <string name="enjoy">Disfruta el resto de la partida!</string>
+    <string name="nivel">nivel</string>
+    <string name="nombreJugador">nombre de jugador</string>
+    <string name="pun">puntuacion</string>
+    <string name="tipoJugador">jugador</string>
+
+
+    <string name="dificultad">dificultad</string>
+</resources>

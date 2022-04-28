@@ -1,0 +1,32 @@
+public int entra(int score, int id) throws JSONException {
+
+        int pos = -1;
+        if(cantActual != 0) {
+            pos = determinarPos(score, id);
+            if(pos != 5) {
+                if (pos > cantActual - 1) {
+                    cantActual++;
+                }
+                else {
+                    int cant = vecoresJson[id].length();
+                    int pos2 = cant - 1;
+                    JSONObject jsonObject = new JSONObject();
+                    vecoresJson[id].put(cant,jsonObject);
+                    int iter;
+                    int num;
+                    for (iter = pos2; iter >= pos; iter = iter-1) {
+                        num = iter;
+                        num++;
+                        vecoresJson[id].put(num, vecoresJson[id].getJSONObject(iter));
+                    }
+                    if (cant == 5)
+                        vecoresJson[id].remove(5);
+                }
+            }
+        }
+        else{
+            pos = 0;
+            cantActual++;
+        }
+        return pos;
+    }

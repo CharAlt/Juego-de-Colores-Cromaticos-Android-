@@ -1,0 +1,58 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:id="@+id/inicio"
+    >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="217dp"
+        android:layout_height="164dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/Bienvenidos"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecccionar"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="mostrarPopup"
+        android:id="@+id/btnLvl"
+        android:layout_toEndOf="@+id/t1"
+        android:layout_margin="10dp"
+        android:background="@color/gray"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/iniciar"
+        android:textColor="@color/white"
+        android:background="@color/gray"
+        android:onClick="iniciar"
+        android:id="@+id/boton1"
+        android:layout_below="@+id/t1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comentario"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:layout_below="@+id/btnLvl"
+        android:layout_toEndOf="@+id/t1"
+        />
+</RelativeLayout>

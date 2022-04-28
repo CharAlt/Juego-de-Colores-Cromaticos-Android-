@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chroma Game 3.0</string>
+    <string name="Bienvenidos">Welcome to chroma Game</string>
+    <string name="iniciar">Start Game</string>
+    <string name="selecccionar">Press here to Choose difficulty</string>
+    <string name="comentario">Take into account that tou can play one Game-level at the same time</string>
+    <string name="volver">back to the game</string>
+    <string name="ayuda">help</string>
+    <string name="reiniciar">Play again</string>
+    <string name="nuevo">Choose another level</string>
+    <string name="facil">Easy</string>
+    <string name="medio">Medium</string>
+    <string name="dificil">Hard</string>
+    <string name="lvlbajo">Difficulty Easy Choosed properly well</string>
+    <string name="lvlmedio">Difficulty Medium Choosed properly well</string>
+    <string name="lvlalto">Difficulty Hard Choosed properly well</string>
+    <string name="nolvl">you Haven\'t Choosed the Difficulty-level</string>
+    <string name="compartir">Share ranking</string>
+    <string name="opcionIrAlMenu">back to the main menu</string>
+    <string name="intercambios">"Swaps: "</string>
+    <string name="salir">Quit</string>
+    <string name="rank">raking</string>
+    <string name="confirmacion">Are you sure you want to quit?</string>
+    <string name="aceptar">Yes, I\'m Sure</string>
+    <string name="cancelar">No, I want to play</string>
+    <string name="quedarse">you\'ve decided to stayed</string>
+    <string name="cincoSegs">the Game will be started in 5 seconds</string>
+    <string name="felicidades">Congratulations!!!, your score is</string>
+    <string name="ingresar">Enter the ranking</string>
+    <string name="enjoy">Enjoy the rest of the Game</string>
+    <string name="nivel">level</string>
+    <string name="nombreJugador">NickName</string>
+    <string name="pun">Score</string>
+    <string name="tipoJugador">player</string>
+    <string name="dificultad">Difficulty</string>
+</resources>
