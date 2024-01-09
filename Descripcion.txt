@@ -1,0 +1,7 @@
+Videojuego para Android intuitivo.
+
+posee ranking.
+
+posee niveles.
+
+se trata de posicionar en orden los colores, del mas fuerte al mas claro.
